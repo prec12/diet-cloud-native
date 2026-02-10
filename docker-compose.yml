@@ -1,0 +1,9 @@
+services:
+  diet-analysis:
+    build: .
+    container_name: diet-analysis
+    environment:
+      - CSV_PATH=/app/data/All_Diets.csv
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs

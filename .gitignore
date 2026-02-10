@@ -1,0 +1,13 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Outputs
+outputs/
+azurite-data/
+simulated_nosql/
+
+# OS / editors
+.DS_Store
+.vscode/
